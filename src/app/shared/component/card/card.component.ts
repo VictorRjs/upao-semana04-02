@@ -7,5 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class CardComponent {
   @Input() text = '';
-
+alert (text:string){
+alert (text ?? 'sin mensaje');
+}
 }
